@@ -1,0 +1,21 @@
+.carousel-indicators li {
+    width: 30px;
+    margin-right: 70px;
+    height: 30px;
+    text-indent: 0;
+    cursor: pointer;
+  }
+  
+  .carousel-indicators li img {
+    border: 2px solid #eee;
+    box-shadow: 0 0 6px rgba(0,0,0,.8);
+    opacity: .6;
+  }
+  
+  .carousel-indicators li.active img {
+    opacity: 1;
+  }
+  
+  .carousel-indicators {
+    bottom: 0px;
+  }
